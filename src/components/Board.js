@@ -12,7 +12,7 @@ const style = {
 }
 
 const Board = ({ squares, onClick }) => (
-    <div>
+    <div style={style}>
         <Square value="1" onClick={() => onClick("dummy value")}/>
         <Square value="2" onClick={() => onClick("dummy value")}/>
         <Square value="3" onClick={() => onClick("dummy value")}/>
