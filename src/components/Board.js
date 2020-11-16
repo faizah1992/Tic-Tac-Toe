@@ -5,7 +5,8 @@ const style = {
     border: '4px solid darkblue',
     borderRadius: '10px',
     width: '250px',
-
+    height: '250px',
+    margin: '0 auto',
     
 }
 
