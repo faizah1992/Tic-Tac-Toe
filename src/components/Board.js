@@ -4,7 +4,8 @@ import Square from './Square'
 const style = {
     border: '4px solid darkblue',
     borderRadius: '10px',
-    
+    width: '250px',
+
     
 }
 
