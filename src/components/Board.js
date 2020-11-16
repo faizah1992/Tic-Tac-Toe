@@ -7,7 +7,8 @@ const style = {
     width: '250px',
     height: '250px',
     margin: '0 auto',
-    
+    display: 'grid',
+    girdTemplate: 'repeat(3, 1fr) / repeat(3, 1fr)'
 }
 
 const Board = ({ squares, onClick }) => (
