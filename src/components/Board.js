@@ -1,6 +1,11 @@
 import React from 'react';
 import Square from './Square'
 
+const style = {
+    border: '4px solid darkblue',
+    
+}
+
 const Board = ({ squares, onClick }) => (
     <div>
         <Square value="1" onClick={() => onClick("dummy value")}/>
