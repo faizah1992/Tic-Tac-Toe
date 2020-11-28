@@ -22,7 +22,7 @@ const Game= () => {
     }
     
     return (
-        <Board onClick={handleClick}/>
+        <Board  squares={board}  onClick={handleClick}/>
     )
 }
 
