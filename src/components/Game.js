@@ -4,6 +4,7 @@ import Board from './Board'
 
 const styles = {
     width: '200px',
+    margin: '20px auto'
 }
 
 const Game= () => {
