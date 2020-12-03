@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import { calculateWinner } from '../helpers'
 import Board from './Board'
 
+const styles = {
+    width: '200px',
+}
+
 const Game= () => {
     const [board, setBoard] = useState(Array(9).fill(null))
 
@@ -26,7 +30,9 @@ const Game= () => {
     }
     
     return (
+        <>
         <Board  squares={board}  onClick={handleClick}/>
+        </>
     )
 }
 
